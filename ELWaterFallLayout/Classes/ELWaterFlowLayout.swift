@@ -20,7 +20,7 @@ open class ELWaterFlowLayout: UICollectionViewFlowLayout {
     
     fileprivate var lineHeightRecArr : [CGFloat] = [0]
     
-    fileprivate var lineWidth     :CGFloat   = 0
+    var lineWidth     :CGFloat   = 0
     
     weak open var delegate : ELWaterFlowLayoutDelegate?
     
